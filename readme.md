@@ -1,6 +1,6 @@
-# 2048
+# Flappy 2048
 
-> Examen DCC — aout 2022
+> Examen MMI — aout 2022
 
 ## Préambule
 
