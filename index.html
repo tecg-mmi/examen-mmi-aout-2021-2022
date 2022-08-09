@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="fr-BE">
+<head>
+    <link rel="stylesheet" type="text/css" href="src/scss/page.scss"/>
+    <link rel="stylesheet" type="text/css" href="src/scss/main.scss"/>
+    <meta charset="utf-8">
+    <title>HEPL - DCC - Développement Côté Client | examen aout 2022</title>
+    <meta name="author" content="Daniel Schreurs">
+    <meta name="description" content="Cours Développement Côté Client 2020-2021">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="icon.png">
+    <link rel="stylesheet" href="dist/css/main.css">
+    <meta name="theme-color" content="#fafafa">
+</head>
+
+<body class="container px-2 mx-auto">
+<!--[if IE]>
+<p class="browserupgrade">Vous utilisez un navigateur <strong> obsolète </strong>. Veuillez <a
+        href="https://browsehappy.com/"> mettre à niveau
+    votre navigateur </a> pour améliorer votre expérience et votre sécurité.
+</p>
+<![endif]-->
+
+
+<div class="d-flex">
+    <h1 class="h1 bolder">Flappy 2048</h1>
+    <div class="score-container">
+        <h2 class="score-container__score"><span class="score-container__score__title">Score </span><span id="score"
+                class="bolder">0</span></h2>
+        <p class="score-container__score score-container__score--best"><span
+                class="score-container__score__title">Meilleur </span><span id="best" class="bolder">0</span></p>
+
+    </div>
+</div>
+<div class="d-flex">
+    <p class="tagline">Sautez entre les cases pour atteindre <b>2048</b> !</p>
+</div>
+<div class="canvas-container">
+    <canvas height="500" width="500" class="game" id="background">
+        Zut, votre navigateur ne prend pas en charge ce contenu interactif. Pensez à mettre à jour votre navigateur.
+    </canvas>
+    <canvas height="500" width="500" class="game" id="wall">
+        Zut, votre navigateur ne prend pas en charge ce contenu interactif. Pensez à mettre à jour votre navigateur.
+    </canvas>
+    <canvas height="500" width="500" class="game" id="birdie">
+        Zut, votre navigateur ne prend pas en charge ce contenu interactif. Pensez à mettre à jour votre navigateur.
+    </canvas>
+</div>
+<p class="description" id="how-to-play"><b>COMMENT JOUER</b> : Appuyez sur <b>n'importe quelle touche</b> pour maintenir la case en équilibre. Lorsqu'elle passe entre 2 murs, vous augmenter votre score !</p>
+
+<script src="./dist/js/main.js"></script>
+</body>
+</html>
